@@ -1,0 +1,349 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yschang.delicacy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:11:5-79
+12-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:11:22-76
+13    <!--
+14        Queries are required for API 30 and above when working with package manager. This is required
+15        within this library since we use the package manager to determine which web browser to launch
+16         to handle PayPal auth.
+17    -->
+18    <queries>
+18-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:17:5-25:15
+19        <intent>
+19-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:18:9-24:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:17-69
+20-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:25-66
+21
+22            <category android:name="android.intent.category.BROWSABLE" />
+22-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:17-78
+22-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:27-75
+23
+24            <data android:scheme="https" />
+24-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:32:17-34:57
+24-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:34:21-54
+25        </intent>
+26    </queries>
+27
+28    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+28-->[androidx.biometric:biometric:1.2.0-alpha03] C:\Users\USER\.gradle\caches\transforms-3\b336973d3a25ceae88891a60e074a312\transformed\biometric-1.2.0-alpha03\AndroidManifest.xml:24:5-72
+28-->[androidx.biometric:biometric:1.2.0-alpha03] C:\Users\USER\.gradle\caches\transforms-3\b336973d3a25ceae88891a60e074a312\transformed\biometric-1.2.0-alpha03\AndroidManifest.xml:24:22-69
+29    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+29-->[androidx.biometric:biometric:1.2.0-alpha03] C:\Users\USER\.gradle\caches\transforms-3\b336973d3a25ceae88891a60e074a312\transformed\biometric-1.2.0-alpha03\AndroidManifest.xml:27:5-74
+29-->[androidx.biometric:biometric:1.2.0-alpha03] C:\Users\USER\.gradle\caches\transforms-3\b336973d3a25ceae88891a60e074a312\transformed\biometric-1.2.0-alpha03\AndroidManifest.xml:27:22-71
+30
+31    <permission
+31-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+32        android:name="com.yschang.delicacy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.yschang.delicacy.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+36
+37    <application
+37-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:5:5-29:19
+38        android:name="com.yschang.delicacy.MyApplication"
+38-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:8:9-38
+39        android:allowBackup="true"
+39-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:7:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\transforms-3\a5326b7f517f70dd1d181ad2dddb57d1\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:9:9-65
+42        android:debuggable="true"
+43        android:enableOnBackInvokedCallback="true"
+43-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:13:9-51
+44        android:extractNativeLibs="false"
+45        android:fullBackupContent="@xml/backup_rules"
+45-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:10:9-54
+46        android:icon="@mipmap/ic_launcher"
+46-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:11:9-43
+47        android:label="@string/app_name"
+47-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:12:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:14:9-54
+49        android:supportsRtl="true"
+49-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:15:9-35
+50        android:testOnly="true"
+51        android:theme="@style/Theme.Delicacy"
+51-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:16:9-46
+52        android:usesCleartextTraffic="true" >
+52-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:6:9-44
+53        <activity
+53-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:18:9-28:20
+54            android:name="com.yschang.delicacy.MainActivity"
+54-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:19:13-41
+55            android:exported="true"
+55-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:20:13-36
+56            android:theme="@style/Theme.Delicacy"
+56-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:22:13-50
+57            android:windowSoftInputMode="adjustResize" >
+57-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:21:13-55
+58            <intent-filter>
+58-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:23:13-27:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:24:17-69
+59-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:24:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:26:17-77
+61-->D:\_RRC_Materials_Assignments\_Term_4\test5\Delicacy\app\src\main\AndroidManifest.xml:26:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:17:9-24:58
+65            android:name="com.paypal.pyplcheckout.ui.feature.home.activities.PYPLHomeActivity"
+65-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:18:13-95
+66            android:exported="false"
+66-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:19:13-37
+67            android:launchMode="singleTop"
+67-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:20:13-43
+68            android:screenOrientation="portrait"
+68-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:21:13-49
+69            android:taskAffinity="com.pyplcheckout.task"
+69-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:22:13-57
+70            android:theme="@style/PYPLAppTheme"
+70-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:23:13-48
+71            android:windowSoftInputMode="adjustResize" />
+71-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:24:13-55
+72        <activity
+72-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:25:9-41:20
+73            android:name="com.paypal.pyplcheckout.ui.feature.home.activities.PYPLInitiateCheckoutActivity"
+73-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:26:13-107
+74            android:exported="true"
+74-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:27:13-36
+75            android:launchMode="singleTask"
+75-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:28:13-44
+76            android:screenOrientation="portrait"
+76-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:29:13-49
+77            android:theme="@style/PYPLAppFullScreenTheme" >
+77-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:30:13-58
+78            <intent-filter android:autoVerify="true" >
+78-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:31:13-40:29
+78-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:31:28-53
+79                <data
+79-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:32:17-34:57
+80                    android:host="paypalxo"
+80-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:33:21-44
+81                    android:scheme="com.yschang.delicacy" />
+81-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:34:21-54
+82
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:17-69
+83-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:38:17-76
+85-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:38:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:17-78
+86-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:27-75
+87            </intent-filter>
+88        </activity> <!-- This activity is required for listening to Auth redirects (authcore sdk) -->
+89        <activity
+89-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:44:9-60:20
+90            android:name="com.paypal.openid.RedirectUriReceiverActivity"
+90-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:45:13-73
+91            android:excludeFromRecents="true"
+91-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:46:13-46
+92            android:exported="true"
+92-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:47:13-36
+93            android:screenOrientation="portrait"
+93-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:48:13-49
+94            android:theme="@style/PYPLAppTheme" >
+94-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:49:13-48
+95            <intent-filter android:autoVerify="true" >
+95-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:50:13-59:29
+95-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:50:28-53
+96                <action android:name="android.intent.action.VIEW" />
+96-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:17-69
+96-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:36:25-66
+97
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:38:17-76
+98-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:38:27-73
+99                <category android:name="android.intent.category.BROWSABLE" />
+99-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:17-78
+99-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:39:27-75
+100
+101                <data
+101-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:32:17-34:57
+102                    android:host="paypalpay"
+102-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:33:21-44
+103                    android:scheme="com.yschang.delicacy" />
+103-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:34:21-54
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:61:9-67:51
+107            android:name="com.paypal.pyplcheckout.ui.feature.threeds.ThreeDS20Activity"
+107-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:62:13-88
+108            android:exported="false"
+108-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:63:13-37
+109            android:launchMode="singleTop"
+109-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:64:13-43
+110            android:screenOrientation="portrait"
+110-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:65:13-49
+111            android:taskAffinity="com.pyplcheckout.threeds"
+111-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:66:13-60
+112            android:theme="@style/PYPLAppTheme" />
+112-->[com.paypal.checkout:android-sdk:1.2.1] C:\Users\USER\.gradle\caches\transforms-3\6b05a88bea08a5b19cc2bc69434e0450\transformed\android-sdk-1.2.1\AndroidManifest.xml:67:13-48
+113
+114        <service
+114-->[androidx.room:room-runtime:2.6.1] C:\Users\USER\.gradle\caches\transforms-3\2b1f956537d8f36fc69c7619bd2cc8d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+115            android:name="androidx.room.MultiInstanceInvalidationService"
+115-->[androidx.room:room-runtime:2.6.1] C:\Users\USER\.gradle\caches\transforms-3\2b1f956537d8f36fc69c7619bd2cc8d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+116            android:directBootAware="true"
+116-->[androidx.room:room-runtime:2.6.1] C:\Users\USER\.gradle\caches\transforms-3\2b1f956537d8f36fc69c7619bd2cc8d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+117            android:exported="false" />
+117-->[androidx.room:room-runtime:2.6.1] C:\Users\USER\.gradle\caches\transforms-3\2b1f956537d8f36fc69c7619bd2cc8d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+118
+119        <activity android:name="com.paypal.authcore.authentication.TokenActivity" />
+119-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:28:9-85
+119-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:28:19-82
+120        <activity
+120-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:29:9-33:75
+121            android:name="com.paypal.openid.AuthorizationManagementActivity"
+121-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:30:13-77
+122            android:exported="false"
+122-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:31:13-37
+123            android:launchMode="singleTask"
+123-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:32:13-44
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.paypal.android:PayPalPartnerAuth:1.8.4] C:\Users\USER\.gradle\caches\transforms-3\338d1aaf199f40550450c5e01c5c9570\transformed\PayPalPartnerAuth-1.8.4\AndroidManifest.xml:33:13-72
+125
+126        <provider
+126-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+127            android:name="androidx.startup.InitializationProvider"
+127-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+128            android:authorities="com.yschang.delicacy.androidx-startup"
+128-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+129            android:exported="false" >
+129-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+130            <meta-data
+130-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+131-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+132                android:value="androidx.startup" />
+132-->[androidx.emoji2:emoji2:1.3.0] C:\Users\USER\.gradle\caches\transforms-3\3b79aa2f1d1cd7bc40011c0bcc272e1b\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USER\.gradle\caches\transforms-3\190632a00a07050b8f56d2e79fde5db4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+134-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USER\.gradle\caches\transforms-3\190632a00a07050b8f56d2e79fde5db4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+135                android:value="androidx.startup" />
+135-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\USER\.gradle\caches\transforms-3\190632a00a07050b8f56d2e79fde5db4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+136            <meta-data
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+137                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+138                android:value="androidx.startup" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+139        </provider>
+140
+141        <uses-library
+141-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+142            android:name="androidx.window.extensions"
+142-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+143            android:required="false" />
+143-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+144        <uses-library
+144-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+145            android:name="androidx.window.sidecar"
+145-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+146            android:required="false" />
+146-->[androidx.window:window:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\d73f7d0638be9750f9cf4a2979f64b08\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+147
+148        <provider
+148-->[com.squareup.picasso:picasso:2.8] C:\Users\USER\.gradle\caches\transforms-3\261250b82fd373939938650a286be024\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+149            android:name="com.squareup.picasso.PicassoProvider"
+149-->[com.squareup.picasso:picasso:2.8] C:\Users\USER\.gradle\caches\transforms-3\261250b82fd373939938650a286be024\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+150            android:authorities="com.yschang.delicacy.com.squareup.picasso"
+150-->[com.squareup.picasso:picasso:2.8] C:\Users\USER\.gradle\caches\transforms-3\261250b82fd373939938650a286be024\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+151            android:exported="false" />
+151-->[com.squareup.picasso:picasso:2.8] C:\Users\USER\.gradle\caches\transforms-3\261250b82fd373939938650a286be024\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+152
+153        <receiver
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+154            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+155            android:directBootAware="false"
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+156            android:enabled="true"
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+157            android:exported="true"
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+158            android:permission="android.permission.DUMP" >
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+159            <intent-filter>
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+160                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+161            </intent-filter>
+162            <intent-filter>
+162-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+163                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+164            </intent-filter>
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+166                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+166-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+167            </intent-filter>
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+169                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+169-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\379b1bee1ed778749caa37103d718381\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+170            </intent-filter>
+171        </receiver>
+172
+173        <provider
+173-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:17:9-21:39
+174            android:name="com.cardinalcommerce.a.setShadowLayer"
+174-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:18:13-65
+175            android:authorities="com.yschang.delicacy.CCInitProvider"
+175-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:19:13-66
+176            android:enabled="true"
+176-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:20:13-35
+177            android:exported="true" />
+177-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:21:13-36
+178
+179        <activity
+179-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:23:9-26:65
+180            android:name="com.cardinalcommerce.a.setTextLocale"
+180-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:24:13-64
+181            android:exported="false"
+181-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:25:13-37
+182            android:theme="@style/CardinalSDKTheme.ActionBar" />
+182-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:26:13-62
+183        <activity
+183-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:27:9-31:76
+184            android:name="com.cardinalcommerce.a.setTextLocales"
+184-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:28:13-65
+185            android:exported="false"
+185-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:29:13-37
+186            android:theme="@style/CardinalSDKTheme.ActionBar"
+186-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:30:13-62
+187            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+187-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] C:\Users\USER\.gradle\caches\transforms-3\a62dcde35a4423cabac02d7fc3d6e854\transformed\cardinalmobilesdk-2.2.7-2\AndroidManifest.xml:31:13-73
+188    </application>
+189
+190</manifest>
