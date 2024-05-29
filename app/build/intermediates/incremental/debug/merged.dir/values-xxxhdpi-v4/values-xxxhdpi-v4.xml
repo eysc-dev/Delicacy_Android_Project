@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paypal_checkout_large_loading_spinner">80dp</dimen>
+    <dimen name="paypal_checkout_margin_16x">14dp</dimen>
+    <dimen name="paypal_checkout_padding_12x">10dp</dimen>
+    <dimen name="paypal_checkout_padding_16x">14dp</dimen>
+    <dimen name="paypal_checkout_padding_20x">18dp</dimen>
+    <dimen name="paypal_checkout_padding_24x">20dp</dimen>
+    <dimen name="paypal_checkout_text_size_body1">13sp</dimen>
+    <dimen name="paypal_checkout_text_size_display">26sp</dimen>
+</resources>
