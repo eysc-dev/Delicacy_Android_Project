@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_code_message">Kami telah mengirimkan kode baru kepada Anda</string>
+    <string name="paypal_auth_common_header_back_press">tekan tombol kembali</string>
+    <string name="paypal_auth_common_header_close">tutup</string>
+    <string name="paypal_auth_common_header_paypal_logo">Logo PayPal</string>
+    <string name="paypal_auth_otp_login_back_press">tekan tombol kembali</string>
+    <string name="paypal_auth_otp_login_check_code">Periksa kode dan coba lagi.</string>
+    <string name="paypal_auth_otp_login_close">tutup</string>
+    <string name="paypal_auth_otp_login_code_expired">Kode Anda telah kedaluwarsa. Dapatkan kode baru.</string>
+    <string name="paypal_auth_otp_login_code_sent_to">Kode telah dikirim ke %1$s</string>
+    <string name="paypal_auth_otp_login_error_use_password_instead">Gunakan Sandi Sebagai Gantinya</string>
+    <string name="paypal_auth_otp_login_get_a_code">Dapatkan kode</string>
+    <string name="paypal_auth_otp_login_get_new_code">Dapatkan kode baru</string>
+    <string name="paypal_auth_otp_login_log_in">Log In</string>
+    <string name="paypal_auth_otp_login_log_in_fast_with_a_one_time_code">Log in cepat dengan kode sekali pakai</string>
+    <string name="paypal_auth_otp_login_otp_phone_header">Masukkan \n kode sekali pakai Anda</string>
+    <string name="paypal_auth_otp_login_paypal_logo">logo PayPal</string>
+    <string name="paypal_auth_otp_login_paypal_logo_content_description">logo PayPal</string>
+    <string name="paypal_auth_otp_login_phone_text">telepon</string>
+    <string name="paypal_auth_otp_login_something_went_wrong">Terjadi kesalahan</string>
+    <string name="paypal_auth_otp_login_tcpa_consent">Dengan melanjutkan, Anda mengonfirmasi bahwa Anda diotorisasi untuk menggunakan nomor telepon ini dan setuju untuk menerima SMS. Tarif operator mungkin berlaku.</string>
+    <string name="paypal_auth_otp_login_try_again_later">Anda dapat mencobanya lagi nanti, atau log in dengan sandi Anda.</string>
+    <string name="paypal_auth_otp_login_use_password_instead">Gunakan sandi sebagai gantinya</string>
+    <string name="paypal_auth_otp_login_we_ll_send_a_code_to">Kami akan mengirimkan kode ke:</string>
+    <string name="paypal_auth_otp_phone_login_screen_change">Ubah</string>
+    <string name="paypal_auth_split_login_email">Email</string>
+    <string name="paypal_auth_split_login_enter_an_email_address">Masukkan alamat email.</string>
+    <string name="paypal_auth_split_login_enter_your_email_to_get_started">Masukkan alamat email Anda untuk memulai.</string>
+    <string name="paypal_auth_split_login_forgot_your_login_info">Lupa informasi login Anda?</string>
+    <string name="paypal_auth_split_login_next">Berikutnya</string>
+    <string name="paypal_auth_split_login_pay_with_paypal">Bayar dengan PayPal</string>
+</resources>
