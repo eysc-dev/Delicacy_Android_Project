@@ -1,7 +1,7 @@
 # Delicacy
 
 ### Login
-![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_login.png)
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_login.jpg)
 
 ### Register
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_register.png)
