@@ -11,3 +11,9 @@
 
 ## Email Verification
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/email_verification.png)
+
+### Resturant
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_resturant.jpg)
+
+### Menu
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_menu.jpg)
