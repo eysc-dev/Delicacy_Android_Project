@@ -8,3 +8,6 @@
 
 ### Forgot Password
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_forgot_password.jpg)
+
+## Email Verification
+![Index](https://github.com/yscpeak/Delicacy/blob/main/email_verification.png)
