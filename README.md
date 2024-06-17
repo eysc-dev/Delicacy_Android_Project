@@ -17,3 +17,20 @@
 
 ### Menu
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_menu.jpg)
+
+### Food Description
+![Index](https://github.com/yscpeak/Delicacy/blob/main/food_description.jpg)
+
+### Favorite
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_favorite.jpg)
+
+#### remove item
+
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_favorite_remove.jpg)
+
+### Cart
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_cart.jpg)
+
+#### remove item
+
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_cart_remove.jpg)
