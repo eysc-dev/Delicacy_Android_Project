@@ -34,3 +34,7 @@
 #### remove item
 
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_cart_remove.jpg)
+
+#### Paypal
+
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_paypal.jpg)
