@@ -19,7 +19,7 @@
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_menu.jpg)
 
 ### Food Description
-![Index](https://github.com/yscpeak/Delicacy/blob/main/food_description.jpg)
+![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_food_description.jpg)
 
 ### Favorite
 ![Index](https://github.com/yscpeak/Delicacy/blob/main/delicacy_favorite.jpg)
